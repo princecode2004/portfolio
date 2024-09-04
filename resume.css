@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+
+/*nav bar*/
+
+body{
+    background-color: rgb(0, 0, 26);
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    width: 90%;
+    margin: 10px 5% 0% 5%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 63);
+}
+
+.nav_name{
+    height: 100%;
+    width: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.nav_name p{
+    font-size: 1.6rem;
+}
+
+.nav_tag{
+    height: 100%;
+    width: 60%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav_tag li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+.nav_tag a{
+    color: inherit;
+    text-decoration: none;
+}
+.nav_tag a:hover{
+    border-bottom: 3px solid rgb(255, 132, 153);
+    padding-bottom: -1px;
+    font-size: 1.2rem;
+ }
+
+
+.nav_tag a.active {
+    font-size: 1.2rem;
+    color: rgb(255, 132, 153);
+    border-bottom: 3px solid rgb(255, 132, 153);
+    padding-bottom: -1px;
+  }
+
+.nav_contact{
+    height: 40px;
+    width: 15%; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+}
+
+.nav_contact button{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 1rem;
+}
+
+.nav_contact a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav_contact .border{
+    border: 2px solid transparent;
+    border-radius: 50px;
+}
+
+.border{
+    border: 2px solid transparent;
+    border-radius: 50px;
+}
+
+/*resume*/
+
+.resume{
+    height: 100%;
+    width: 100%;
+}
+
+.res-name{
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+}
+
+hr{
+    margin: 0 3%;
+}
+
+/*image and name*/
+
+.res-img-name{
+    height: 200px;
+    width: auto;
+    margin: 10px 3% 0 3%;
+    display: flex;
+    align-items: center;
+}
+
+.res-img-name img{
+    height: 175px;
+    width: 175px;
+    background-color: black;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+
+.my-name{
+    font-size: 5rem;
+    color: white;
+    margin-left: 50px;
+}
+
+/*skill and abut me*/
+
+.skill-aboutme{
+    height: 270px;
+    width: auto;
+    color: white;
+    display: flex;
+    margin: 0 3% 0 3%;
+    padding-top: 10px;
+}
+
+.skill{
+    height: 100%;
+    width: 45%;
+}
+
+.skill label{
+    font-size: 2.5rem; 
+    margin-left: 20px;
+}
+
+.skill ul{
+    list-style-type: disc;
+    color: white;
+    margin-left: 40px;
+}
+
+.about-me{
+    height: 100%;
+    width: 55%;
+}
+
+.about-me label{
+    font-size: 2.5rem; 
+}
+
+.about-me p{
+    text-align: justify
+}
+
+/*edcation*/
+
+.education{
+    height: 305px;
+    width: auto;
+    color: white;
+    margin: 0 3% 0 3%;
+    padding-top: 10px;
+    display: flex;
+}
+
+.educat{
+    height: 100%;
+    width: 45%;
+}
+
+.educat p{
+    font-size: 2.5rem; 
+    color: white;
+}
+
+.board-school{
+    height: 100%;
+    width: 55%;
+    padding-top: 20px;
+}
+
+.education-board{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.education-school{
+    font-size: 1.2rem; 
+    opacity: 90%;
+}
+
+/*experience*/
+.experience{
+    height: 270px;
+    width: auto;
+    color: white;
+    margin: 0 3% 0 3%;
+    padding-top: 10px;
+    display: flex;
+}
+
+.exp-name{
+    height: 100%;
+    width: 45%;
+}
+
+.exp-name p{
+    font-size: 2.5rem; 
+    color: white;
+}
+
+.exp{
+    height: 100%;
+    width: 55%;
+    padding-top: 20px;
+}
+
+.course-name{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.company-name-exp{
+    font-size: 1.2rem; 
+}
+
+.experience li{
+    margin-left: 20px;
+}
+/*contact me*/
+
+.contact-me{
+    height: 305px;
+    width: auto;
+    color: white;
+    margin: 0 3% 0 3%;
+    padding-top: 10px;
+}
+
+
+.contact-me-name{
+    font-size: 2.5rem; 
+    color: white;
+}
+
+.contact-img-no{
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.contact-img-no i{
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+.contact-img-no p{
+    font-size: 1.2rem;
+}
+
+.contact-img-email{
+    height: 30px;
+    width: auto;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-img-email i{
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+.contact-img-email p{
+    font-size: 1.2rem;
+}
+
+.contact-img-add{
+    height: 30px;
+    width: auto;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-img-add i{
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+.contact-img-add p{
+    font-size: 1.2rem;
+}
+
+.contact-me .nav_contact{
+    margin-top: 20px;
+}

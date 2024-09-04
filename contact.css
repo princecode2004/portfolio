@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+
+/*nav bar*/
+
+body{
+    background-color: rgb(0, 0, 26);;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    width: 90%;
+    margin: 10px 5% 0% 5%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 63);
+}
+
+.nav_name{
+    height: 100%;
+    width: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.nav_name p{
+    font-size: 1.6rem;
+}
+
+.nav_tag{
+    height: 100%;
+    width: 60%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+.nav_tag a{
+    color: inherit;
+    text-decoration: none;
+}
+.nav_tag a:hover{
+    border-bottom: 3px solid rgb(255, 132, 153);
+    padding-bottom: -1px;
+    font-size: 1.2rem;
+ }
+
+
+.nav_tag a.active {
+    font-size: 1.2rem;
+    color: rgb(255, 132, 153);
+    border-bottom: 3px solid rgb(255, 132, 153);
+    padding-bottom: -1px;
+  }
+
+
+.nav_contact{
+    height: 40px;
+    width: 15%; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 132, 153);
+}
+
+.nav_contact button{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 1rem;
+}
+
+.nav_contact a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav_contact .border{
+    border: 2px solid transparent;
+    border-radius: 50px;
+}
+
+.border{
+    border: 2px solid transparent;
+    border-radius: 50px;
+}
+
+/*contact me*/
+
+.contact_me{
+    height: 100%;
+    width: 100%;   
+}
+
+.contact-name{
+    color: white;
+    font-size: 7rem;
+    text-align: center;
+}
+
+.container-body{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: transparent;
+    padding: 20px;
+    margin-top: -50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 400px;
+}
+
+label {
+    display: block;
+    margin: 0 0 5px 5px;
+    font-weight: bold;
+    color: white;
+}
+
+label::after{
+    content: '*';
+}
+
+input[type="text"],
+input[type="email"] 
+{
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 0px solid transparent;
+    border-radius: 50px;
+    background-color: rgb(44, 11, 42);
+    color: white;
+}
+
+textarea{
+    height: 140px;
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0px solid transparent;
+    border-radius: 20px;
+    background-color: rgb(44, 11, 42);
+    color: white;
+    resize: none;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder, textarea::placeholder{
+    color: white;
+    opacity: 50%;
+}
+.contact_me button {
+    width: 150px;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+/*follow mw*/
+
+.follow_me{
+    height: 250px;
+    width: auto;
+    margin: 10% 10% 0 10%;
+    display: flex;
+}
+
+.follow-me-name{
+    height: 100%;
+    width: 60%;
+}
+
+.follow-me-name p{
+    font-size: 6rem;
+    color: white;
+    line-height: 6rem;
+}
+
+.color-circle{
+    height: 25px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.colour1{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+}
+
+.colour2{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+}
+
+.colour3{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 95%;
+}
+
+.colour4{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 90%;
+}
+
+.colour5{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 80%;
+}
+
+.colour6{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 85%;
+}
+
+.colour7{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 70%;
+}
+
+.colour8{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 60%;
+}
+
+.colour9{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 50%;
+}
+
+.colour10{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 45%;
+}
+
+.colour11{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 40%;
+}
+
+.colour12{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 35%;
+}
+
+.colour13{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 30%;
+}
+
+.colour14{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 20%;
+}
+
+.colour15{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 10%;
+}
+
+.colour16{
+    height: 18px;
+    width: 18px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 5px;
+    opacity: 5%;
+}
+
+/*Social Media link*/
+
+.social_media_link{
+    height: 50%;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social_media_link i{
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+    margin: 10px 10px 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    gap: 0px;
+}
+
+.social_media_link a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.link_border{
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
